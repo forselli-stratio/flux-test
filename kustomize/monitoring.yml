@@ -1,0 +1,10 @@
+---
+apiVersion: v1
+data:
+  values.yaml: |-
+    alertmanager-monitoring:
+      dashboards:
+        enabled: false
+kind: ConfigMap
+metadata:
+  name: 02-monitoring-helm-chart-override-values
